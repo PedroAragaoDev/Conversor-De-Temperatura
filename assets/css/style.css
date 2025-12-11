@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+    --primary-color: rgb(202, 202, 202);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+
+*{
+    box-sizing: border-box ;
+    outline: 0;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+input, label, button {
+    display: fixed;
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+input {
+    align-items: center;
+    width: 40%;
+    margin: 0px 20px;
+    font-size: 34px;
+    height: 50px;
+    padding: 5px 20px;
+}
+
+input:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+button{
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: 0.3s
+}
+
+button:hover{
+    background-color: var(--primary-color-darker);
+}
+select{
+    width: 40%;
+    height: 25px;
+    position: relative;
+    align-items: center;
+    margin: 0px 26.1px;
+    left: 0px;
+}
+
+#temperaturaOrigem{
+    left: -6px;
+}
+
+#trocarMoedas{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    margin: 10px;
+}
+
