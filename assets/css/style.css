@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-    --primary-color: rgb(202, 202, 202);
+    --primary-color: rgba(3, 161, 252, 0.644);
     --primary-color-darker: rgb(9, 48, 56);
 }
 
@@ -20,11 +20,14 @@ body{
 }
 
 .container{
+    justify-content: center; 
+    align-items: center;
     max-width: 600px;
-    margin: 100px auto;
+    margin: 12% auto;     
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 8px 10px black;
     
 }
 
