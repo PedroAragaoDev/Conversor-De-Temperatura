@@ -13,7 +13,7 @@ Feito com HTML, CSS e JavaScript puro.
 - CSS3
 - JavaScript (DOM + eventos)
 
-- ## 👤 Sobre mim
+## 👤 Sobre mim
 
-Sou Pedro Souza, estudante e desenvolvedor front-end em crescimento.
+Sou Pedro Aragão, estudante e desenvolvedor front-end em crescimento.
 Busco oportunidades para aplicar minhas habilidades e evoluir na área de desenvolvimento web.
